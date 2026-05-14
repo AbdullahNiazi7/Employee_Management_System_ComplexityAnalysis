@@ -1,4 +1,4 @@
-# Employee Management System — Complexity Analysis & Refactoring
+# Employee Management System | Complexity Analysis & Refactoring
 
 **Course:** Software Construction & Development  
 **Institution:** International Islamic University Islamabad  

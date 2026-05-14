@@ -1,3 +1,0 @@
-C:/Users/Marhaba Tech/Desktop/All Courses/SC & D/Complexity Project/Code/New/cmake-build-debug/CMakeFiles/New.dir
-C:/Users/Marhaba Tech/Desktop/All Courses/SC & D/Complexity Project/Code/New/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Marhaba Tech/Desktop/All Courses/SC & D/Complexity Project/Code/New/cmake-build-debug/CMakeFiles/rebuild_cache.dir

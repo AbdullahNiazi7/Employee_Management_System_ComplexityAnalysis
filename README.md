@@ -1,5 +1,3 @@
-# Employee_Management_System_ComplexityAnalysis
-
 # Employee Management System — Complexity Analysis & Refactoring
 
 **Course:** Software Construction & Development  

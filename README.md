@@ -3,7 +3,7 @@
 **Course:** Software Construction & Development  
 **Institution:** International Islamic University Islamabad  
 **Department:** Software Engineering  
-**Student:** Muhammad Abdullah Khan — `4747-FOC/BSSE/F23 (A)`  
+**Student:** Muhammad Abdullah Khan  `4747-FOC/BSSE/F23 (A)`  
 **Instructor:** Shakir Rasheed Khan Khattak  
 
 ---
@@ -12,7 +12,7 @@
 
 This project presents a complete complexity analysis and refactoring of an **Employee Management System** written in C++. The system manages employees at a software company and supports core HR operations including adding, updating, and removing employees, calculating payroll, checking promotions, and generating reports.
 
-The primary objective is to identify, measure, and reduce both **Cyclomatic Complexity** and **Cognitive Complexity** across all functions in the codebase — demonstrating how thoughtful refactoring leads to code that is easier to test, read, and maintain.
+The primary objective is to identify, measure, and reduce both **Cyclomatic Complexity** and **Cognitive Complexity** across all functions in the codebase, demonstrating how thoughtful refactoring leads to code that is easier to test, read, and maintain.
 
 ---
 
@@ -80,17 +80,17 @@ The primary objective is to identify, measure, and reduce both **Cyclomatic Comp
 | `CanAddEmployee()` *(new)* | 2 | 1 |
 | **Total** | **25** | **18** |
 
-> **Cognitive Complexity reduced by ~33%** — from 27 down to 18.  
+> **Cognitive Complexity reduced by ~33%** from 27 down to 18.  
 > No single function exceeds a Cognitive CC of 3 after refactoring.
 
 ---
 
 ## Key Refactoring Changes
 
-- **Guard Clauses** — replaced large `if-else` blocks with early returns, eliminating unnecessary nesting
-- **Helper Extraction** — four new single-responsibility helper functions extracted to remove duplicated logic
-- **DRY Principle** — the employee search loop that was copy-pasted in four methods now lives in one place: `findEmployeeIndex()`
-- **Flat Structure** — maximum nesting depth reduced from 3 to 1 across the entire project
+- **Guard Clauses** replaced large `if-else` blocks with early returns, eliminating unnecessary nesting
+- **Helper Extraction** four new single-responsibility helper functions extracted to remove duplicated logic
+- **DRY Principle** the employee search loop that was copy-pasted in four methods now lives in one place: `findEmployeeIndex()`
+- **Flat Structure** maximum nesting depth reduced from 3 to 1 across the entire project
 
 ---
 
